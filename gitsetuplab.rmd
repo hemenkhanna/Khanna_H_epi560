@@ -1,0 +1,41 @@
+---
+title: "Lab2"
+author: "Hemen Khanna"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(usethis)
+library(gitcreds)
+
+
+```
+
+Part 1 Question 7:
+
+![Part 1 Question 7 Screenshot](C:\Users\hkhan\Pictures\Screenshots\q7.png)
+
+
+Part 1 Question 10: 
+
+![Part 2 Question 10 Screenshot](C:\Users\hkhan\Pictures\Screenshots\q10.png)
+
+
+
+Part 2 Script:
+
+![Part 2 Script Screenshot](C:\Users\hkhan\Pictures\Screenshots\part2-script.png)
+
+
+Part 2 Output:
+
+![Part 2 Output Screenshot](C:\Users\hkhan\Pictures\Screenshots\part2-output.png)
+
+Code Appendix:
+
+```{r, ref.label=knitr::all_labels(),echo=TRUE,eval=FALSE}
+
+```
